@@ -11,6 +11,38 @@ a {
 ul,
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -21,6 +53,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -33,6 +66,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -42,6 +77,7 @@ ul {
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-link {
@@ -57,11 +93,12 @@ ul {
   color: #404bbf;
 }
 
-.wrapper {
+.hero {
   background: #2e2f42;
+  padding: 188px 472px;
 }
 
-.wrapper-title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -70,7 +107,7 @@ ul {
   color: #fff;
 }
 
-.wrapper-btn {
+.hero-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,8 +116,8 @@ ul {
   background-color: #4d5ae5;
 }
 
-.wrapper-btn:hover,
-.wrapper-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
