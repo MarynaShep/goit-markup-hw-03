@@ -139,11 +139,17 @@ ul {
   margin-left: auto;
   margin-right: auto;
   border: none;
+  display: block;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+}
+
+.features {
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -161,6 +167,7 @@ ul {
 
 .features-list {
   display: flex;
+  gap: 24px;
 }
 
 .features-item {
@@ -186,6 +193,7 @@ ul {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -206,6 +214,7 @@ ul {
 
 .team-item {
   background-color: #fff;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-subtitle {
@@ -226,6 +235,10 @@ ul {
   text-align: center;
   color: #434455;
   margin: 0 68px 32px;
+}
+
+.portfolio {
+  padding: 120px 0;
 }
 
 .portfolio-title {
